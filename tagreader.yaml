@@ -363,3 +363,9 @@ text_sensor:
 # Define buzzer as output for RTTTL
 rtttl:
   output: buzzer
+  
+# Configure LED
+light:
+- id: activity_led
+  name: "${friendly_name} LED"
+  restore_mode: ALWAYS_OFF
