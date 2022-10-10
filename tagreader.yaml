@@ -363,15 +363,3 @@ text_sensor:
 # Define buzzer as output for RTTTL
 rtttl:
   output: buzzer
-
-# Configure LED
-light:
-- platform: neopixelbus
-  variant: WS2812
-  pin: D0
-  num_leds: 1
-  flash_transition_length: 500ms
-  type: GRB
-  id: activity_led
-  name: "${friendly_name} LED"
-  restore_mode: ALWAYS_OFF
