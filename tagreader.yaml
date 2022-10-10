@@ -10,7 +10,7 @@ wifi:
 captive_portal:
 
 dashboard_import:
-  package_import_url: github://adonno/tagreader/tagreader.yaml
+  package_import_url: github://selmaohneh/tagreader/tagreader.yaml
 
 improv_serial:
 
@@ -31,7 +31,7 @@ esphome:
   # This will allow for (future) project identification,
   # configuration and updates.
   project:
-    name: adonno.tag_reader
+    name: selmaohneh.tag_reader
     version: "1.4"
 # If buzzer is enabled, notify on api connection success
   on_boot:
